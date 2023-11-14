@@ -19,11 +19,16 @@
 }
 
 .back-home {
-    margin: auto var(--gap);
+    font-size: 1rem;
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-left: var(--gap);
+    padding-right: var(--gap);
     font-size: 1rem;
 }
 
-.back-home:hover {
+.back-home a:hover {
     text-decoration: underline;
 }
 
