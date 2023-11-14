@@ -18,6 +18,15 @@
     margin: auto var(--gap);
 }
 
+.back-home {
+    margin: auto var(--gap);
+    font-size: 1rem;
+}
+
+.back-home:hover {
+    text-decoration: underline;
+}
+
 .logo {
     flex-wrap: inherit;
 }
